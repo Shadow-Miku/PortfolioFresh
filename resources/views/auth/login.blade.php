@@ -45,11 +45,11 @@
                 <button type="submit"
                     class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Login</button>
 
-                @if (Route::has('password.request'))
+                {{-- @if (Route::has('password.request'))
                     <a class="text-sm text-blue-600 hover:underline" href="{{ route('password.request') }}">
                         Forgot Your Password?
                     </a>
-                @endif
+                @endif --}}
             </div>
         </form>
     </div>

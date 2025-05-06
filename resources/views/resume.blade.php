@@ -9,90 +9,99 @@
 
     <!-- Experiencia Laboral -->
     <section class="mb-16">
-      <h3 class="text-3xl font-semibold text-indigo-400 mb-8">Experiencia Laboral</h3>
-      <div class="relative">
-        <!-- Timeline line -->
-        <div class="absolute left-5 top-0 w-0.5 h-full bg-indigo-300 transform -translate-x-1/2"></div>
-
-        <!-- Items -->
-        <div class="space-y-12">
-          <!-- Item 1 -->
-          <div class="relative pl-16">
-            <div class="absolute left-5 top-4 w-4 h-4 bg-indigo-600 rounded-full transform -translate-x-1/2"></div>
-            <div class="space-y-4">
-              <h4 class="text-xl font-semibold text-gray-100">Web Capture System (IMT)</h4>
-              <span class="block text-sm text-indigo-300">2022 - 2023</span>
-              <ul class="text-gray-300 space-y-3 list-disc list-inside">
-                <li>Development and implementation: Creation of a web capture system to manage researcher activities</li>
-                <li>Technologies used: Laravel, PHP, SQL, MySQL, JavaScript, Bootstrap</li>
-                <li>Features: Increased efficiency and productivity through an accessible platform</li>
-                <li>Project management: Supervision of complete project cycle</li>
-                <li>Security: Server configuration with secure authentication</li>
-                <li>Version control: Git and GitHub for team collaboration</li>
-                <li>Documentation: Complete project documentation</li>
-                <li>Testing: Manual and automated testing</li>
-                <li>Deployment: Successfully deployed on live server</li>
-                <li>Support: Ongoing maintenance and support</li>
-              </ul>
-            </div>
-          </div>
-
-          <!-- Item 2 -->
-          <div class="relative pl-16">
-            <div class="absolute left-5 top-4 w-4 h-4 bg-indigo-600 rounded-full transform -translate-x-1/2"></div>
-            <div class="space-y-4">
-              <h4 class="text-xl font-semibold text-gray-100">Desarrollador Web Freelance</h4>
-              <span class="block text-sm text-indigo-300">2023 - Actualidad</span>
-              <p class="text-gray-300">Desarrollo de sitios web y aplicaciones a medida para clientes de diversos sectores, implementación de soluciones en Laravel, JavaScript, Python, HTML5 y CSS3.</p>
-            </div>
-          </div>
-
-          <!-- Item 3 -->
-          <div class="relative pl-16">
-            <div class="absolute left-5 top-4 w-4 h-4 bg-indigo-600 rounded-full transform -translate-x-1/2"></div>
-            <div class="space-y-4">
-              <h4 class="text-xl font-semibold text-gray-100">Proyecto de Gestión de Pasaportes</h4>
-              <span class="block text-sm text-indigo-300">2023</span>
-              <p class="text-gray-300">Sistema para control de pasaportes defectuosos durante pasantía en dependencia gubernamental de Querétaro. Integración de base de datos, captura de imágenes y reportes.</p>
-            </div>
-          </div>
+        <!-- Título -->
+        <div class="flex items-center gap-3 mb-8">
+            <svg class="w-8 h-8 text-indigo-400 dark:text-indigo-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7H5a2 2 0 0 0-2 2v4m5-6h8M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2m0 0h3a2 2 0 0 1 2 2v4m0 0v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-6m18 0s-4 2-9 2-9-2-9-2m9-2h.01"/>
+              </svg>
+            <h3 class="text-3xl font-semibold text-indigo-500 dark:text-gray-100">Work Experience</h3>
         </div>
-      </div>
+        <!-- Contenido -->
+        <ol class="relative border-s border-gray-200 dark:border-gray-700 ms-3">
+
+            <li class="mb-10 ms-6">
+            <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-indigo-900"></span>
+            <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">IMT (Instituto Mexicano del Transporte)</h3>
+            <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2023 - 2024</time>
+            <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+                I worked as part of a development team where I contributed to internal tools for logistics and transport data processing.
+            </p>
+            </li>
+
+            <!-- Freelancer -->
+            <li class="mb-10 ms-6">
+            <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-indigo-900"></span>
+            <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Freelancer</h3>
+            <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2024 - Present</time>
+            <p class="text-base font-normal text-gray-500 dark:text-gray-400 mb-2">
+                I have worked on several freelance projects using different technologies. Some of them include:
+            </p>
+
+            <!-- Lista de proyectos freelance -->
+            <ul class="list-disc list-inside text-gray-500 dark:text-gray-400 space-y-2">
+                <li>
+                <span class="font-semibold text-gray-700 dark:text-white">Defective Passport Management System:</span>
+                <p class="ml-4">
+                    Created with Laravel to manage and document the disposal of defective or invalid passports during the issuance process.
+                </p>
+                </li>
+                <li>
+                <span class="font-semibold text-gray-700 dark:text-white">Inventory with Integrated Shopping Cart:</span>
+                <p class="ml-4">
+                    Built an inventory and shopping system using Laravel, allowing real-time stock tracking and product purchases.
+                </p>
+                </li>
+                <li>
+                <span class="font-semibold text-gray-700 dark:text-white">Ticketing and User Support System:</span>
+                <p class="ml-4">
+                    Developed a Laravel-based support system where users can create tickets and receive help through an internal panel.
+                </p>
+                </li>
+            </ul>
+            </li>
+        </ol>
+
     </section>
 
     <!-- Educación -->
     <section class="mb-16">
-      <h3 class="text-3xl font-semibold text-indigo-400 mb-8">Educación</h3>
-      <div class="relative">
-        <div class="absolute left-5 top-0 w-0.5 h-full bg-indigo-300 transform -translate-x-1/2"></div>
-
-        <div class="space-y-12">
-          <!-- Item 1 -->
-          <div class="relative pl-16">
-            <div class="absolute left-5 top-4 w-4 h-4 bg-indigo-600 rounded-full transform -translate-x-1/2"></div>
-            <div class="space-y-4">
-              <h4 class="text-xl font-semibold text-gray-100">Licenciatura en Informática</h4>
-              <span class="block text-sm text-indigo-300">Universidad XYZ - En curso</span>
-              <p class="text-gray-300">Formación en desarrollo de software, bases de datos, redes, inteligencia artificial y gestión de proyectos.</p>
-            </div>
-          </div>
-
-          <!-- Item 2 -->
-          <div class="relative pl-16">
-            <div class="absolute left-5 top-4 w-4 h-4 bg-indigo-600 rounded-full transform -translate-x-1/2"></div>
-            <div class="space-y-4">
-              <h4 class="text-xl font-semibold text-gray-100">Cursos Online Especializados</h4>
-              <span class="block text-sm text-indigo-300">Udemy, Platzi, 2021 - 2024</span>
-              <p class="text-gray-300">Certificaciones en desarrollo web, Laravel, Vue.js, visión por computadora y diseño de interfaces.</p>
-            </div>
-          </div>
+        <!-- Título -->
+        <div class="flex items-center gap-3 mb-8">
+            <svg class="w-8 h-8 text-indigo-400 dark:text-indigo-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 19V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v13H7a2 2 0 0 0-2 2Zm0 0a2 2 0 0 0 2 2h12M9 3v14m7 0v4"/>
+            </svg>
+            <h3 class="text-3xl font-semibold text-indigo-500 dark:text-gray-100">Education</h3>
         </div>
-      </div>
+
+        <!-- Contenido -->
+        <ol class="relative border-s border-gray-200 dark:border-gray-700 ms-3">
+            <!-- Grado universitario -->
+            <li class="mb-10 ms-6">
+            <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-indigo-950 dark:bg-indigo-900"></span>
+            <time class="block mb-1 text-sm font-normal leading-none text-gray-400 dark:text-indigo-300">College Degree</time>
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Engineer in Computer Systems</h3>
+            <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+                Universidad Politécnica de Querétaro.<br>
+                Professional License: 14538243
+            </p>
+            </li>
+
+            <!-- Cursos especializados -->
+            <li class="mb-10 ms-6">
+            <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-indigo-950 dark:bg-indigo-900"></span>
+            <time class="block mb-1 text-sm font-normal leading-none text-gray-400 dark:text-indigo-300">Specialized Online Courses</time>
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Udemy, Google</h3>
+            <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+                Certifications in web development, Laravel, Python, Java, computer vision, UI design, and more.
+            </p>
+            </li>
+        </ol>
+
     </section>
 
     <!-- Habilidades -->
     <section>
-      <h3 class="text-3xl font-semibold text-indigo-400 mb-8">Habilidades</h3>
+      <h3 class="text-3xl font-semibold text-indigo-400 mb-8">Skills</h3>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
         <!-- Frontend -->
@@ -101,15 +110,23 @@
           <ul class="space-y-3">
             <li class="flex items-center">
               <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
-              <span class="text-gray-300">HTML5, CSS3 (Avanzado)</span>
+              <span class="text-gray-300">HTML5, CSS3</span>
             </li>
             <li class="flex items-center">
               <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
-              <span class="text-gray-300">JavaScript (Intermedio)</span>
+              <span class="text-gray-300">JavaScript</span>
             </li>
             <li class="flex items-center">
               <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
               <span class="text-gray-300">TailwindCSS, Bootstrap</span>
+            </li>
+            <li class="flex items-center">
+                <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
+                <span class="text-gray-300">Angular</span>
+            </li>
+            <li class="flex items-center">
+                <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
+                <span class="text-gray-300">React</span>
             </li>
           </ul>
         </div>
@@ -120,15 +137,23 @@
           <ul class="space-y-3">
             <li class="flex items-center">
               <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
-              <span class="text-gray-300">PHP, Laravel (Intermedio)</span>
+              <span class="text-gray-300">PHP, Laravel</span>
             </li>
             <li class="flex items-center">
               <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
-              <span class="text-gray-300">Python (Básico - Intermedio)</span>
+              <span class="text-gray-300">Python</span>
             </li>
             <li class="flex items-center">
               <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
-              <span class="text-gray-300">SQL, MySQL</span>
+              <span class="text-gray-300">Java, Spring Boot</span>
+            </li>
+            <li class="flex items-center">
+              <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
+              <span class="text-gray-300">SQL, MySQL, SQLite</span>
+            </li>
+            <li class="flex items-center">
+                <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
+                <span class="text-gray-300">Apache</span>
             </li>
           </ul>
         </div>
@@ -142,12 +167,28 @@
               <span class="text-gray-300">Git, GitHub</span>
             </li>
             <li class="flex items-center">
+                <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
+                <span class="text-gray-300">AWS (Amazon Web Services)</span>
+            </li>
+            <li class="flex items-center">
+                <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
+                <span class="text-gray-300">Ubuntu Server</span>
+            </li>
+            <li class="flex items-center">
+                <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
+                <span class="text-gray-300">Oracle Cloud</span>
+            </li>
+            <li class="flex items-center">
+                <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
+                <span class="text-gray-300">NPM</span>
+            </li>
+            <li class="flex items-center">
               <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
               <span class="text-gray-300">Docker</span>
             </li>
             <li class="flex items-center">
-              <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
-              <span class="text-gray-300">Figma</span>
+                <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
+                <span class="text-gray-300">Terminal</span>
             </li>
           </ul>
         </div>

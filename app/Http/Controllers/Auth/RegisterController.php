@@ -63,6 +63,10 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
+        if (\App\Models\User::count() >= 1) {
+            abort(403, 'Registro deshabilitado.');
+        }
+
         return User::create([
             'name' => $data['name'],
             'email' => $data['email'],

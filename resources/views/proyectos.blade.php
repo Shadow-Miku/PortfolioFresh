@@ -36,6 +36,7 @@
   <!-- Modal con Galería y animaciones -->
   <div
     x-show="activeModal === '{{ $proyecto->id }}'"
+    x-cloak
     x-transition:enter="ease-out duration-300"
     x-transition:enter-start="opacity-0 scale-95"
     x-transition:enter-end="opacity-100 scale-100"

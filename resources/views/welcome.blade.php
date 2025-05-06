@@ -10,7 +10,7 @@
         <div class="w-full md:w-1/3 text-center">
             <img src="{{ asset('img/angelinaarknigths.gif') }}" alt="Tu nombre" class="rounded-full w-64 h-64 object-cover mx-auto mb-6 border-4 border-indigo-500/50">
             <h2 class="text-3xl font-bold text-white mb-2">Aldo Rojas Nieves</h2>
-            <p class="text-xl text-indigo-400 mb-6">Desarrollador FullStack Jr</p>
+            <p class="text-xl text-indigo-400 mb-6">Jr Developer</p>
 
             <!-- Iconos Redes -->
             <div class="flex justify-center space-x-6 mb-8">
@@ -84,7 +84,12 @@
               </section>
 
             <!-- Tecnologías -->
-            <h4 class="text-xl font-bold text-white mb-6">Technologies</h4>
+            <h4 class="text-xl font-bold text-white mt-12 mb-6">Technology Stack</h4>
+            <section class="about-text mb-8">
+                <p class="text-gray-300 mb-8">
+                  During my freelance carrer I have learned and used a wide variety of technologies, my technology stack includes:
+                </p>
+            </section>
             <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-4">
 
                 <div class="skill-item group flex flex-col items-center text-gray-400 hover:text-green-400 transition-colors">

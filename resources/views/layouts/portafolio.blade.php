@@ -24,7 +24,7 @@
   <!-- Navbar -->
   <nav class="p-6 bg-gray-800/50 backdrop-blur-md fixed w-full z-50">
     <div class="container mx-auto flex justify-between items-center">
-      <a href="/" class="text-2xl font-bold text-indigo-500 neon-text">Fresh Technologies</a>
+      <a href="/" class="text-2xl font-bold text-indigo-500 neon-text">Lemon Lab</a>
       <div class="space-x-6">
         <a href="/" class="text-gray-300 hover:text-indigo-400 transition">About</a>
         <a href="resume" class="text-gray-300 hover:text-indigo-400 transition">Resume</a>
@@ -66,9 +66,9 @@
 
 
   <!-- Footer -->
-  <footer class="bg-gray-800 text-white py-4 mt-12">
+  <footer class="bg-gray-800/30 backdrop-blur-md w-full text-white py-4 mt-12">
     <div class="container mx-auto text-center">
-      <p>&copy; {{ date('Y') }} Fresh Technologies.</p>
+      <p>&copy; {{ date('Y') }} Lemon Lab.</p>
     </div>
   </footer>
 
