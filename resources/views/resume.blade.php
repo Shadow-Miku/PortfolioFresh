@@ -101,100 +101,104 @@
 
     <!-- Habilidades -->
     <section>
-      <h3 class="text-3xl font-semibold text-indigo-400 mb-8">Skills</h3>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-
-        <!-- Frontend -->
-        <div class="bg-gray-800 bg-opacity-50 p-6 rounded-lg">
-          <h5 class="text-xl font-bold text-indigo-300 mb-4">Frontend</h5>
-          <ul class="space-y-3">
-            <li class="flex items-center">
-              <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
-              <span class="text-gray-300">HTML5, CSS3</span>
-            </li>
-            <li class="flex items-center">
-              <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
-              <span class="text-gray-300">JavaScript</span>
-            </li>
-            <li class="flex items-center">
-              <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
-              <span class="text-gray-300">TailwindCSS, Bootstrap</span>
-            </li>
-            <li class="flex items-center">
-                <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
-                <span class="text-gray-300">Angular</span>
-            </li>
-            <li class="flex items-center">
-                <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
-                <span class="text-gray-300">React</span>
-            </li>
-          </ul>
+        <div class="flex items-center gap-3 mb-8">
+            <svg class="w-8 h-8 text-indigo-800 dark:text-indigo-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M6 2c-1.10457 0-2 .89543-2 2v4c0 .55228.44772 1 1 1s1-.44772 1-1V4h12v7h-2c-.5523 0-1 .4477-1 1v2h-1c-.5523 0-1 .4477-1 1s.4477 1 1 1h5c.5523 0 1-.4477 1-1V3.85714C20 2.98529 19.3667 2 18.268 2H6Z"/>
+                <path d="M6 11.5C6 9.567 7.567 8 9.5 8S13 9.567 13 11.5 11.433 15 9.5 15 6 13.433 6 11.5ZM4 20c0-2.2091 1.79086-4 4-4h3c2.2091 0 4 1.7909 4 4 0 1.1046-.8954 2-2 2H6c-1.10457 0-2-.8954-2-2Z"/>
+              </svg>
+            <h3 class="text-3xl font-semibold text-indigo-500 dark:text-gray-100">Skills</h3>
         </div>
 
-        <!-- Backend -->
-        <div class="bg-gray-800 bg-opacity-50 p-6 rounded-lg">
-          <h5 class="text-xl font-bold text-indigo-300 mb-4">Backend</h5>
-          <ul class="space-y-3">
-            <li class="flex items-center">
-              <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
-              <span class="text-gray-300">PHP, Laravel</span>
-            </li>
-            <li class="flex items-center">
-              <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
-              <span class="text-gray-300">Python</span>
-            </li>
-            <li class="flex items-center">
-              <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
-              <span class="text-gray-300">Java, Spring Boot</span>
-            </li>
-            <li class="flex items-center">
-              <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
-              <span class="text-gray-300">SQL, MySQL, SQLite</span>
-            </li>
-            <li class="flex items-center">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Frontend -->
+            <div class="bg-gray-800 bg-opacity-50 p-6 rounded-lg">
+            <h5 class="text-xl font-bold text-indigo-300 mb-4">Frontend</h5>
+            <ul class="space-y-3">
+                <li class="flex items-center">
                 <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
-                <span class="text-gray-300">Apache</span>
-            </li>
-          </ul>
-        </div>
+                <span class="text-gray-300">HTML5, CSS3</span>
+                </li>
+                <li class="flex items-center">
+                <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
+                <span class="text-gray-300">JavaScript</span>
+                </li>
+                <li class="flex items-center">
+                <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
+                <span class="text-gray-300">TailwindCSS, Bootstrap</span>
+                </li>
+                <li class="flex items-center">
+                    <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
+                    <span class="text-gray-300">Angular</span>
+                </li>
+                <li class="flex items-center">
+                    <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
+                    <span class="text-gray-300">React</span>
+                </li>
+            </ul>
+            </div>
 
-        <!-- Herramientas -->
-        <div class="bg-gray-800 bg-opacity-50 p-6 rounded-lg">
-          <h5 class="text-xl font-bold text-indigo-300 mb-4">Herramientas</h5>
-          <ul class="space-y-3">
-            <li class="flex items-center">
-              <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
-              <span class="text-gray-300">Git, GitHub</span>
-            </li>
-            <li class="flex items-center">
+            <!-- Backend -->
+            <div class="bg-gray-800 bg-opacity-50 p-6 rounded-lg">
+            <h5 class="text-xl font-bold text-indigo-300 mb-4">Backend</h5>
+            <ul class="space-y-3">
+                <li class="flex items-center">
                 <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
-                <span class="text-gray-300">AWS (Amazon Web Services)</span>
-            </li>
-            <li class="flex items-center">
+                <span class="text-gray-300">PHP, Laravel</span>
+                </li>
+                <li class="flex items-center">
                 <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
-                <span class="text-gray-300">Ubuntu Server</span>
-            </li>
-            <li class="flex items-center">
+                <span class="text-gray-300">Python</span>
+                </li>
+                <li class="flex items-center">
                 <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
-                <span class="text-gray-300">Oracle Cloud</span>
-            </li>
-            <li class="flex items-center">
+                <span class="text-gray-300">Java, Spring Boot</span>
+                </li>
+                <li class="flex items-center">
                 <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
-                <span class="text-gray-300">NPM</span>
-            </li>
-            <li class="flex items-center">
-              <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
-              <span class="text-gray-300">Docker</span>
-            </li>
-            <li class="flex items-center">
-                <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
-                <span class="text-gray-300">Terminal</span>
-            </li>
-          </ul>
-        </div>
+                <span class="text-gray-300">SQL, MySQL, SQLite</span>
+                </li>
+                <li class="flex items-center">
+                    <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
+                    <span class="text-gray-300">Apache</span>
+                </li>
+            </ul>
+            </div>
 
-      </div>
+            <!-- Herramientas -->
+            <div class="bg-gray-800 bg-opacity-50 p-6 rounded-lg">
+            <h5 class="text-xl font-bold text-indigo-300 mb-4">Tools</h5>
+            <ul class="space-y-3">
+                <li class="flex items-center">
+                <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
+                <span class="text-gray-300">Git, GitHub</span>
+                </li>
+                <li class="flex items-center">
+                    <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
+                    <span class="text-gray-300">AWS (Amazon Web Services)</span>
+                </li>
+                <li class="flex items-center">
+                    <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
+                    <span class="text-gray-300">Ubuntu Server</span>
+                </li>
+                <li class="flex items-center">
+                    <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
+                    <span class="text-gray-300">Oracle Cloud</span>
+                </li>
+                <li class="flex items-center">
+                    <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
+                    <span class="text-gray-300">NPM</span>
+                </li>
+                <li class="flex items-center">
+                <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
+                <span class="text-gray-300">Docker</span>
+                </li>
+                <li class="flex items-center">
+                    <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
+                    <span class="text-gray-300">Terminal</span>
+                </li>
+                </ul>
+            </div>
+        </div>
     </section>
-
-  </article>
+</article>
 @endsection

@@ -14,6 +14,10 @@
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" defer></script>
   <script src="//unpkg.com/alpinejs" defer></script>
 
+
+  <!--Scripts -->
+  <script src="{{ asset('js/redirigir.js') }}" ></script>
+
 </head>
 
 <body class="bg-gradient-to-br from-gray-900 to-black min-h-screen text-white">
@@ -38,20 +42,6 @@
                         >
                             Dashboard
                         </a>
-                    @else
-                        <a
-                            href="{{ route('login') }}"
-                            class="inline-block px-5 py-1.5 dark:text-[#EDEDEC] text-[#1b1b18] border border-transparent hover:border-[#19140035] dark:hover:border-[#3E3E3A] rounded-sm text-sm leading-normal"
-                        >
-                            Log in
-                        </a>
-                        @if (Route::has('register'))
-                            <a
-                                href="{{ route('register') }}"
-                                class="inline-block px-5 py-1.5 dark:text-[#EDEDEC] border-[#19140035] hover:border-[#1915014a] border text-[#1b1b18] dark:border-[#3E3E3A] dark:hover:border-[#62605b] rounded-sm text-sm leading-normal">
-                                Register
-                            </a>
-                        @endif
                     @endauth
             @endif
 

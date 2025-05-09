@@ -15,6 +15,7 @@
 
     <!-- Vite Assets -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+    <script src="{{ asset('js/app.js') }}" ></script>
 
     <link rel="icon" href="{{ asset('img/arengee_penetrael_dgr_icon.ico') }}" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -23,7 +24,6 @@
     <style>
         body {
             background-color: #121212;
-            color: #e0e0e0;
         }
 
         .dropdown-menu {
@@ -39,7 +39,8 @@
             color: #fff;
         }
 
-        .nav-link, .navbar-brand {
+        .nav-link,
+        .navbar-brand {
             color: #f8f9fa !important;
         }
 
@@ -51,6 +52,7 @@
             background-color: #1e1e1e;
             border-radius: 8px;
         }
+
     </style>
 </head>
 <body>
