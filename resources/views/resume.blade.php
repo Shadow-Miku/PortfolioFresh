@@ -3,8 +3,18 @@
 
 @section('content')
 <article class="resume py-10 px-4 max-w-5xl mx-auto bg-black bg-opacity-25 shadow-md rounded-lg" data-page="resume">
-    <header class="mb-12 text-left">
-      <h2 class="text-4xl font-bold text-gray-100">Resume</h2>
+    <header class="mb-10 flex justify-between items-center">
+      <h2 class="text-4xl font-bold text-gray-100 mb-4">Resume</h2>
+      <a href="{{ asset('CV_AldoRojasNieves_Abril2025.pdf') }}"
+        download
+        class="inline-flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition-all duration-300 shadow-lg"
+        title="Download CV">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+            </svg>
+            <span class="font-medium">Download CV</span>
+    </a>
     </header>
 
     <!-- Experiencia Laboral -->
@@ -116,15 +126,23 @@
             <ul class="space-y-3">
                 <li class="flex items-center">
                 <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
-                <span class="text-gray-300">HTML5, CSS3</span>
+                <span class="text-gray-300">HTML5</span>
+                </li>
+                <li class="flex items-center">
+                    <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
+                    <span class="text-gray-300">TailwindCSS</span>
+                </li>
+                <li class="flex items-center">
+                    <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
+                    <span class="text-gray-300">CSS3</span>
                 </li>
                 <li class="flex items-center">
                 <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
                 <span class="text-gray-300">JavaScript</span>
                 </li>
                 <li class="flex items-center">
-                <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
-                <span class="text-gray-300">TailwindCSS, Bootstrap</span>
+                    <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
+                    <span class="text-gray-300"> Bootstrap</span>
                 </li>
                 <li class="flex items-center">
                     <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
@@ -134,6 +152,7 @@
                     <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
                     <span class="text-gray-300">React</span>
                 </li>
+
             </ul>
             </div>
 
@@ -142,8 +161,8 @@
             <h5 class="text-xl font-bold text-indigo-300 mb-4">Backend</h5>
             <ul class="space-y-3">
                 <li class="flex items-center">
-                <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
-                <span class="text-gray-300">PHP, Laravel</span>
+                    <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
+                    <span class="text-gray-300">Laravel</span>
                 </li>
                 <li class="flex items-center">
                 <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
@@ -151,11 +170,27 @@
                 </li>
                 <li class="flex items-center">
                 <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
-                <span class="text-gray-300">Java, Spring Boot</span>
+                <span class="text-gray-300">Java</span>
+                </li>
+                <li class="flex items-center">
+                    <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
+                    <span class="text-gray-300">PHP</span>
+                </li>
+                <li class="flex items-center">
+                    <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
+                    <span class="text-gray-300">Spring Boot</span>
                 </li>
                 <li class="flex items-center">
                 <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
-                <span class="text-gray-300">SQL, MySQL, SQLite</span>
+                <span class="text-gray-300">SQL</span>
+                </li>
+                <li class="flex items-center">
+                    <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
+                    <span class="text-gray-300">MySQL</span>
+                </li>
+                <li class="flex items-center">
+                    <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
+                    <span class="text-gray-300">SQLite</span>
                 </li>
                 <li class="flex items-center">
                     <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
@@ -179,6 +214,22 @@
                 <li class="flex items-center">
                     <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
                     <span class="text-gray-300">Ubuntu Server</span>
+                </li>
+                <li class="flex items-center">
+                    <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
+                    <span class="text-gray-300">Visual Studio Code</span>
+                </li>
+                <li class="flex items-center">
+                    <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
+                    <span class="text-gray-300">IntelliJ IDEA</span>
+                </li>
+                <li class="flex items-center">
+                    <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
+                    <span class="text-gray-300">Postman</span>
+                </li>
+                <li class="flex items-center">
+                    <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
+                    <span class="text-gray-300">Netlify</span>
                 </li>
                 <li class="flex items-center">
                     <span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>

@@ -5,22 +5,20 @@ use Illuminate\Support\Facades\Route;
 /* Portafolio */
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('welcome');
 
 Route::get('/resume', function () {
     return view('resume');
-});
-
-Route::get('/proyectos', function () {
-    return view('proyectos');
-});
+})->name('resume');
 
 Route::get('/contacto', function () {
     return view('contacto');
-});
+})->name('contacto');
 
 /* Portafolio con proyectos cargados de la BD */
 Route::get('/portafolio', [App\Http\Controllers\PortafolioDin::class, 'portafolio'])->name('portafolio');
+
+Route::get('/proyecto/{id}', [App\Http\Controllers\PortafolioDin::class, 'proyecto'])->name('proyecto');
 
 /* Rutas de administrador */
 Auth::routes();
