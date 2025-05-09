@@ -70,45 +70,40 @@
             </button>
             </div>
         <p class="text-gray-300 mb-6">{{ $proyecto->description }}</p>
-
-        <!-- Gallery -->
-        <div class="flex gap-4">
-            <!-- Miniaturas -->
-            <div class="flex flex-col space-y-2 w-20 overflow-y-auto">
-              @foreach ($proyecto->fotos as $index => $foto)
-                <img
-                  src="{{ $foto->url_completa }}"
-                  alt="Miniatura {{ $index }}"
-                  class="cursor-pointer rounded border-2"
-                  :class="{ 'border-blue-500': activeImage === {{ $index }} }"
-                  @click="activeImage = {{ $index }}"
-                />
-              @endforeach
-            </div>
-
-            <!-- Imagen principal -->
-            <div class="relative flex-1 h-96">
-              @foreach ($proyecto->fotos as $index => $foto)
-                <div
-                  x-show="activeImage === {{ $index }}"
-                  x-transition:enter="transition ease-in-out duration-300"
-                  x-transition:enter-start="opacity-0"
-                  x-transition:enter-end="opacity-100"
-                  x-transition:leave="transition ease-in-out duration-300"
-                  x-transition:leave-start="opacity-100"
-                  x-transition:leave-end="opacity-0"
-                  class="absolute inset-0"
-                >
-                  <img
+            <!-- Gallery -->
+            <div class="flex gap-4 p-2 md:p-4 sm:p-4">
+                <!-- Miniaturas -->
+                <div class="flex flex-col space-y-2 w-20 overflow-y-auto ">
+                @foreach ($proyecto->fotos as $index => $foto)
+                    <img
                     src="{{ $foto->url_completa }}"
-                    alt="Imagen principal"
-                    class="object-contain h-full w-full mx-auto rounded-lg"
-                  />
+                    alt="Miniatura {{ $index }}"
+                    class="cursor-pointer rounded border-2"
+                    :class="{ 'border-blue-500': activeImage === {{ $index }} }"
+                    @click="activeImage = {{ $index }}"
+                    />
+                @endforeach
                 </div>
-              @endforeach
-            </div>
-        </div>
-        </div>
+
+                <!-- Imagen principal -->
+                <div class="relative flex-1 h-96">
+                @foreach ($proyecto->fotos as $index => $foto)
+                    <div
+                    x-show="activeImage === {{ $index }}"
+                    x-transition:enter="transition ease-in-out duration-300"
+                    x-transition:enter-start="opacity-0"
+                    x-transition:enter-end="opacity-100"
+                    x-transition:leave="transition ease-in-out duration-300"
+                    x-transition:leave-start="opacity-100"
+                    x-transition:leave-end="opacity-0"
+                    class="absolute inset-0"
+                    >
+                    <img src="{{ $foto->url_completa }}" alt="Imagen principal" class="object-cover h-full w-full mx-auto border-2 rounded border-indigo-800 "/>
+                    </div>
+                @endforeach
+                </div>  <!-- Fin de Imagen principal -->
+            </div>  <!-- Fin del Gallery -->
+        </div> <!-- Fin del Modal -->
     </div>
   </div>
   @endforeach
