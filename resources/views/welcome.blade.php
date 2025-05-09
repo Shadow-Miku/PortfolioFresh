@@ -26,7 +26,7 @@
                     </svg>
                 </a>
 
-                <a href="{{ asset('CV_AldoRojasNieves_Abril2025.pdf') }}" download class="text-gray-400 hover:text-green-400 transition-transform transform hover:scale-110" title="Download CV">
+                <a href="{{ asset('CV_AldoRojasNieves.pdf') }}" download class="text-gray-400 hover:text-green-400 transition-transform transform hover:scale-110" title="Download CV">
                     <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
                     </svg>
@@ -42,7 +42,7 @@
         </div>
 
         <!-- Columna Derecha -->
-        <div class="w-full md:w-2/3 bg-black bg-opacity-30 shadow-md rounded-lg p-6">
+        <div class="w-full md:w-2/3 bg-black bg-opacity-40 shadow-md rounded-lg p-6">
             <div class="flex items-center gap-3 mb-8">
                 <svg class="w-8 h-8 text-gray-800 dark:text-indigo-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                     <path fill-rule="evenodd" d="M9 2.221V7H4.221a2 2 0 0 1 .365-.5L8.5 2.586A2 2 0 0 1 9 2.22ZM11 2v5a2 2 0 0 1-2 2H4v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2h-7ZM8 16a1 1 0 0 1 1-1h6a1 1 0 1 1 0 2H9a1 1 0 0 1-1-1Zm1-5a1 1 0 1 0 0 2h6a1 1 0 1 0 0-2H9Z" clip-rule="evenodd"/>

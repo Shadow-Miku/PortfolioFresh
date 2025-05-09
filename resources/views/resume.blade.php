@@ -2,10 +2,10 @@
 @section('title', 'Resume')
 
 @section('content')
-<article class="resume py-10 px-4 max-w-5xl mx-auto bg-black bg-opacity-25 shadow-md rounded-lg" data-page="resume">
-    <header class="mb-10 flex justify-between items-center">
-      <h2 class="text-4xl font-bold text-gray-100 mb-4">Resume</h2>
-      <a href="{{ asset('CV_AldoRojasNieves_Abril2025.pdf') }}"
+<article class="resume py-10 px-4 max-w-5xl mx-auto bg-black bg-opacity-40 shadow-md rounded-lg" data-page="resume">
+    <header class="mb-8 flex justify-between items-center">
+      <h2 class="text-4xl font-bold text-gray-100">Resume</h2>
+      <a href="{{ asset('CV_AldoRojasNieves.pdf') }}"
         download
         class="inline-flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition-all duration-300 shadow-lg"
         title="Download CV">
@@ -33,8 +33,23 @@
             <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-indigo-900"></span>
             <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">IMT (Instituto Mexicano del Transporte)</h3>
             <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2023 - 2024</time>
-            <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-                I worked as part of a development team where I contributed to internal tools for logistics and transport data processing.
+            <span class="text-base font-semibold text-gray-500 dark:text-white">
+                Web Capture System
+            </span>
+            <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400 ml-4">
+                - Developed a web-based platform to manage researcher activities, improving efficiency and productivity.
+
+                <br>- Led the full project lifecycle, from planning to deployment, ensuring collaboration and effective stakeholder communication.
+
+                <br>- Implemented secure authentication and server configurations for data protection.
+
+                <br>- Optimized performance for scalability and responsiveness.
+
+                <br>- Utilized Laravel, PHP, SQL, MySQL, JavaScript, and Bootstrap.
+
+                <br>- Managed version control and collaboration via Git and GitHub.
+
+                <br>- Maintained comprehensive documentation for clarity and organization.
             </p>
             </li>
 
@@ -51,20 +66,40 @@
             <ul class="list-disc list-inside text-gray-500 dark:text-gray-400 space-y-2">
                 <li>
                 <span class="font-semibold text-gray-700 dark:text-white">Defective Passport Management System:</span>
-                <p class="ml-4">
-                    Created with Laravel to manage and document the disposal of defective or invalid passports during the issuance process.
+                <p class="ml-6">
+                    - Developed a system for defective passport registration and control at the request of an employee from the Delegación de la Secretaría de Relaciones Exteriores en Querétaro.
+
+                    <br>- Integrated image capture, defect logging, and centralized record display.
+
+                    <br>- Optimized system performance for efficiency and scalability.
+
+                    <br>- Built with Laravel, PHP, MySQL, JavaScript, and Bootstrap.
                 </p>
                 </li>
                 <li>
                 <span class="font-semibold text-gray-700 dark:text-white">Inventory with Integrated Shopping Cart:</span>
-                <p class="ml-4">
-                    Built an inventory and shopping system using Laravel, allowing real-time stock tracking and product purchases.
+                <p class="ml-6">
+                    - Developed a solution for inventory control and sales transactions.
+
+                    <br>- Enabled product addition, quantity adjustments, price updates, and PDF generation.
+
+                    <br>- Focused on user experience for intuitive navigation and seamless interactions.
+
+                    <br>- Deployed and configured the system on AWS using Ubuntu for cloud-based accessibility and reliability.
+
+                    <br>- Leveraged Laravel, PHP, JavaScript, and Bootstrap.
                 </p>
                 </li>
                 <li>
                 <span class="font-semibold text-gray-700 dark:text-white">Ticketing and User Support System:</span>
-                <p class="ml-4">
-                    Developed a Laravel-based support system where users can create tickets and receive help through an internal panel.
+                <p class="ml-6">
+                    - Created a ticket-based support platform with real-time chat and assignment tracking.
+
+                    <br>- Implemented ticket status management and modal-based visualization.
+
+                    <br>- Designed with user experience in mind for streamlined interactions.
+
+                    <br>- Built using Laravel, PHP, MySQL, JavaScript, and Bootstrap.
                 </p>
                 </li>
             </ul>
@@ -87,23 +122,32 @@
         <ol class="relative border-s border-gray-200 dark:border-gray-700 ms-3">
             <!-- Grado universitario -->
             <li class="mb-10 ms-6">
-            <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-indigo-950 dark:bg-indigo-900"></span>
-            <time class="block mb-1 text-sm font-normal leading-none text-gray-400 dark:text-indigo-300">College Degree</time>
-            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Engineer in Computer Systems</h3>
-            <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-                Universidad Politécnica de Querétaro.<br>
-                Professional License: 14538243
-            </p>
+                <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-indigo-950 dark:bg-indigo-900"></span>
+                <time class="block mb-1 text-sm font-normal leading-none text-gray-400 dark:text-indigo-300">College Degree</time>
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Engineer in Computer Systems</h3>
+                <p class="mb-4 ml-1 text-base font-semibold text-gray-500 dark:text-gray-400">
+                    Universidad Politécnica de Querétaro.<br>
+                    Professional License: 14538243
+                </p>
+            </li>
+
+            <li class="mb-10 ms-6">
+                <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-indigo-950 dark:bg-indigo-900"></span>
+                <time class="block mb-1 text-sm font-normal leading-none text-gray-400 dark:text-indigo-300">Certification</time>
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">TOEFL - C1 English Proficiency</h3>
+                <p class="mb-4 ml-1 text-base font-semibold text-gray-500 dark:text-gray-400">
+                    Demonstrated advanced English proficiency (C1 level) in the TOEFL exam.
+                </p>
             </li>
 
             <!-- Cursos especializados -->
             <li class="mb-10 ms-6">
-            <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-indigo-950 dark:bg-indigo-900"></span>
-            <time class="block mb-1 text-sm font-normal leading-none text-gray-400 dark:text-indigo-300">Specialized Online Courses</time>
-            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Udemy, Google</h3>
-            <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-                Certifications in web development, Laravel, Python, Java, computer vision, UI design, and more.
-            </p>
+                <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-indigo-950 dark:bg-indigo-900"></span>
+                <time class="block mb-1 text-sm font-normal leading-none text-gray-400 dark:text-indigo-300">Specialized Online Courses</time>
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Udemy, Google</h3>
+                <p class="text-base ml-1 font-semibold text-gray-500 dark:text-gray-400">
+                    Certifications in web development, Laravel, Python, Java, computer vision, UI design, and more.
+                </p>
             </li>
         </ol>
 

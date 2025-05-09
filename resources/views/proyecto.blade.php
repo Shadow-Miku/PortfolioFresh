@@ -2,7 +2,7 @@
 @section('title', 'Proyecto')
 @section('content')
 
-<article class="resume py-4 px-4 max-w-5xl mx-auto bg-black bg-opacity-25 shadow-md rounded-lg" data-page="resume">
+<article class="resume py-4 px-4 max-w-5xl mx-auto bg-black bg-opacity-40 shadow-md rounded-lg" data-page="resume">
 
     <a href="{{ url()->previous() }}"
         class="inline-flex items-center gap-2 px-2 py-1 mb-4 text-indigo-400 hover:text-white transition bg-indigo-800 hover:bg-indigo-600 border-2 border-indigo-700 rounded-lg shadow-lg">
@@ -12,7 +12,7 @@
          <span>Back</span>
      </a>
 
-    <header class="mb-12 text-left">
+    <header class="mb-6 text-left">
       <h2 class="text-4xl font-bold text-gray-100">{{ $proyecto->title }}</h2>
     </header>
 

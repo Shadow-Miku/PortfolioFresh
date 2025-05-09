@@ -1,3 +1,8 @@
+:root {
+    --neon-purple: #4f46e5;
+    --white: #ffffff;
+}
+
 .project-card {
     perspective: 1000px;
 }
@@ -44,6 +49,11 @@
     width: 100%;
     height: 100%;
     z-index: -1;
+}
+
+::selection {
+    background: var(--neon-purple);
+    color: var(--white);
 }
 
 /* About me Styles and animations */
