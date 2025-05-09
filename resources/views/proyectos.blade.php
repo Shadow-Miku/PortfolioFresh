@@ -54,7 +54,7 @@
 
         {{-- <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span> --}} <!-- Dummy element to trick the browser into centering the modal contents -->
 
-        <div class="inline-block w-full p-6 align-bottom bg-gray-800 dark:bg-gray-900 rounded-2xl text-left overflow-hidden shadow-xl transform transition-all sm:max-w-4xl 2xl:max-w-6xl 2xl:h-3/4"> <!-- Modal Body -->
+        <div class="inline-block w-full p-6 align-bottom bg-gray-800 dark:bg-gray-900 rounded-2xl text-left overflow-hidden shadow-xl transform transition-all sm:max-w-4xl 2xl:max-w-6xl 2xl:h-6/6"> <!-- Modal Body -->
             <div class="absolute top-2 right-4">
                 <button @click="activeModal = null" class="text-gray-400 hover:text-red-500 text-2xl font-bold ">
                     &times;
