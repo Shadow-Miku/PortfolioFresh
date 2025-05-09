@@ -73,7 +73,7 @@
                             <a href="{{ route('proyectos.list') }}" class="nav-link">Proyectos</a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url('/') }}" class="nav-link">Portafolio</a>
+                            <a href="{{ url('/') }}" class="nav-link" target="_blank">Portafolio</a>
                         </li>
                     </ul>
 
