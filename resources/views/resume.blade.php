@@ -30,7 +30,7 @@
         <ol class="relative border-s border-gray-200 ms-3">
 
             <li class="mb-10 ms-6">
-            <span class="absolute flex items-center justify-center w-6 h-6 rounded-full -start-3 ring-8 ring-gray-900 bg-indigo-900"></span>
+            <span class="absolute flex items-center justify-center w-6 h-6 rounded-full -start-3 ring-8 ring-indigo-950 bg-indigo-900"></span>
             <h3 class="flex items-center mb-1 text-lg font-semibold text-white">IMT (Instituto Mexicano del Transporte)</h3>
             <time class="block mb-2 text-sm font-normal leading-none text-gray-500">2023 - 2024</time>
             <span class="text-base font-semibold text-white">
@@ -55,7 +55,7 @@
 
             <!-- Freelancer -->
             <li class="mb-10 ms-6">
-            <span class="absolute flex items-center justify-center w-6 h-6 rounded-full -start-3 ring-8ring-gray-900 bg-indigo-900"></span>
+            <span class="absolute flex items-center justify-center w-6 h-6 rounded-full -start-3 ring-8 ring-indigo-950 bg-indigo-900"></span>
             <h3 class="mb-1 text-lg font-semibold text-white">Freelancer</h3>
             <time class="block mb-2 text-sm font-normal leading-none text-gray-500">2024 - Present</time>
             <p class="text-base font-normal text-gray-400 mb-2">
