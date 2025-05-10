@@ -57,16 +57,8 @@
 
       <div>
         <label for="message" class="block text-sm font-medium text-gray-300 mb-1">Message</label>
-        <textarea
-          id="message"
-          name="message"
-          rows="5"
-          class="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:ring-indigo-500 focus:border-indigo-500 resize-none text-gray-800"
-          placeholder="Write your message..."
-          required
-          data-form-input>
-        </textarea>
-      </div>
+        <textarea id="message" name="message" rows="5" class="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:ring-indigo-500 focus:border-indigo-500 resize-none text-gray-800" placeholder="Write your message..." required data-form-input></textarea>
+    </div>
 
       <div class="text-center">
         <button
@@ -92,7 +84,7 @@
             .querySelector('input[name="email"]')
             .value.trim();
         const message = document
-            .querySelector('textarea[name="message"]')
+        .querySelector('textarea[name="message"]')
             .value.trim();
 
         if (!fullname || !email || !message) {
