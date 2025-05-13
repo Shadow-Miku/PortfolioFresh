@@ -5,13 +5,25 @@
 <h2 class="text-4xl font-bold text-white mb-12 text-center">My Projects</h2>
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
     @foreach ($proyectos as $proyecto)
+        @php
+        $categoryColors = [
+            'Web Design' => 'text-pink-400',
+            'Web Development' => 'text-blue-400',
+            'Applications' => 'text-green-400',
+            'Automation and Scripts' => 'text-yellow-400',
+            'Machine Learning' => 'text-purple-400',
+            'Other' => 'text-gray-400',
+        ];
+
+        $categoryClass = $categoryColors[$proyecto->category] ?? 'text-white';
+        @endphp
     <!-- Card del proyecto -->
     <article onclick="window.location.href='{{ route('proyecto', ['id' => $proyecto->id]) }}'" class="project-card group relative h-96 rounded-xl overflow-hidden cursor-pointer" >
         <div class="project-card-inner card-glass h-full p-6">
-            <div class="absolute inset-0 bg-[url('{{ $proyecto->imagen_portada }}')] opacity-30 group-hover:opacity-50 transition-opacity duration-300 bg-cover bg-center"></div>
+            <div class="absolute inset-0 bg-[url('{{ $proyecto->imagen_portada }}')] opacity-30 group-hover:opacity-40 transition-opacity duration-300 bg-cover bg-center"></div>
             <div class="relative z-10 h-full flex flex-col justify-between">
                 <div>
-                    <span class="text-pink-400 text-sm mb-2 block">{{ $proyecto->category }}</span>
+                    <span class="text-pink-400 text-sm mb-2 block {{ $categoryClass }}">{{ $proyecto->category }}</span>
                     <h3 class="text-2xl font-bold text-white mb-2">{{ $proyecto->title }}</h3>
                     <p class="text-gray-300">{{ $proyecto->functionresume }}</p>
                 </div>

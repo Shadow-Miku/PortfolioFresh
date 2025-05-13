@@ -63,7 +63,7 @@
                 <a href="{{ route('resume') }}" class="block py-2 pr-4 pl-3 text-white  hover:text-indigo-500 lg:p-0 transition {{ Route::currentRouteName() === 'resume' ? 'text-indigo-500 font-bold border-b-2 border-indigo-500' : 'text-gray-700 dark:text-white hover:text-indigo-500' }}">Resume</a>
             </li>
             <li>
-                <a href="{{ route('portafolio') }}" class="block py-2 pr-4 pl-3 text-white  hover:text-indigo-500 lg:p-0 transition {{ Route::currentRouteName() === 'portafolio' ? 'text-indigo-500 font-bold border-b-2 border-indigo-500' : 'text-gray-700 dark:text-white hover:text-indigo-500' }}"">Portfolio</a>
+                <a href="{{ route('portafolio') }}" class="block py-2 pr-4 pl-3 text-white  hover:text-indigo-500 lg:p-0 transition {{ Route::currentRouteName() === 'portafolio' ? 'text-indigo-500 font-bold border-b-2 border-indigo-500' : 'text-gray-700 dark:text-white hover:text-indigo-500' }}">Portfolio</a>
             </li>
             <li>
                 <a href="{{ route('contacto') }}" class="block py-2 pr-4 pl-3 text-white  hover:text-indigo-500 lg:p-0 transition {{ Route::currentRouteName() === 'contacto' ? 'text-indigo-500 font-bold border-b-2 border-indigo-500' : 'text-gray-700 dark:text-white hover:text-indigo-500' }}">Contact</a>
