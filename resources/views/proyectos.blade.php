@@ -8,10 +8,10 @@
         @php
         $categoryColors = [
             'Web Design' => 'text-pink-400',
-            'Web Development' => 'text-blue-400',
-            'Applications' => 'text-green-400',
+            'Web Development' => 'text-cyan-400',
+            'Applications' => 'text-red-500',
             'Automation and Scripts' => 'text-yellow-400',
-            'Machine Learning' => 'text-purple-400',
+            'Machine Learning' => 'text-green-400',
             'Other' => 'text-gray-400',
         ];
 
@@ -23,7 +23,7 @@
             <div class="absolute inset-0 bg-[url('{{ $proyecto->imagen_portada }}')] opacity-30 group-hover:opacity-40 transition-opacity duration-300 bg-cover bg-center"></div>
             <div class="relative z-10 h-full flex flex-col justify-between">
                 <div>
-                    <span class="text-pink-400 text-sm mb-2 block {{ $categoryClass }}">{{ $proyecto->category }}</span>
+                    <span class="text-sm mb-2 block {{ $categoryClass }}">{{ $proyecto->category }}</span>
                     <h3 class="text-2xl font-bold text-white mb-2">{{ $proyecto->title }}</h3>
                     <p class="text-gray-300">{{ $proyecto->functionresume }}</p>
                 </div>
@@ -37,7 +37,7 @@
                            target="_blank" onclick="event.stopPropagation()">Code →</a>
                     @endif
                     @if ($proyecto->youtube)
-                        <a href="{{ $proyecto->youtube }}" class="text-red-400 hover:text-red-300 transition"
+                        <a href="{{ $proyecto->youtube }}" class="text-red-600 hover:text-red-300 transition"
                            target="_blank" onclick="event.stopPropagation()">YouTube →</a>
                     @endif
                 </div>
