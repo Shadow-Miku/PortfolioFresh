@@ -16,7 +16,7 @@
       <h2 class="text-4xl font-bold text-gray-100">{{ $proyecto->title }}</h2>
     </header>
 
-    <section class="mb-4">
+    <section class="mb-6">
         <!-- Galería con controles tipo slider -->
         <div x-data="{ activeImage: 0, total: {{ count($proyecto->fotos) }} }" class="relative grid gap-4">
             <!-- Imagen principal -->
