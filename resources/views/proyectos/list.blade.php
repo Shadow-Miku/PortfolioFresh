@@ -75,7 +75,7 @@
                           <div class="modal-body">
                             <p><strong>Resumen Funcional:</strong> {{ $proyecto->functionresume }}</p>
                             <p><strong>Categoría:</strong> {{ $proyecto->category }}</p>
-                            <p><strong>Descripción:</strong> {{ $proyecto->description }}</p>
+                            <p style="white-space: pre-line;"><strong>Descripción:</strong>  {{ $proyecto->description }}</p>
                             <p>
                                 <strong>URL Youtube:</strong>
                                 <a href="{{ $proyecto->youtube }}" target="_blank">{{ $proyecto->youtube }}</a>
