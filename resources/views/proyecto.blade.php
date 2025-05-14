@@ -82,7 +82,7 @@
     </section>
 
     <section class="mb-16">
-        <p class="text-gray-300 mb-6">{{ $proyecto->description }}</p>
+        <p class="text-gray-300 mb-6" style="white-space: pre-line;">{{ $proyecto->description }}</p>
     </section>
 </article>
 @endsection
