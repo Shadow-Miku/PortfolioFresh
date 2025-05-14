@@ -21,7 +21,7 @@
                                 </div>
                                 <div class="mb-3">
                                     <label for="description" class="form-label" style="font-weight: bold;">Descripción</label>
-                                    <textarea type="text" class="form-control" id="description" name="description" required> {{ old('description', $proyecto->description) }}</textarea>
+                                    <textarea type="text" class="form-control" id="description" name="description" required>{{old('description', $proyecto->description)}}</textarea>
                                 </div>
                                 <div class="mb-3">
                                     <label for="functionresume" class="form-label" style="font-weight: bold;">Resumen Funcional</label>
