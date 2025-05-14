@@ -78,16 +78,29 @@
                             <p style="white-space: pre-line;"><strong>Descripción:</strong>  {{ $proyecto->description }}</p>
                             <p>
                                 <strong>URL Youtube:</strong>
-                                <a href="{{ $proyecto->youtube }}" target="_blank">{{ $proyecto->youtube }}</a>
+                                @if (!empty($proyecto->youtube))
+                                    <a href="{{ $proyecto->youtube }}" target="_blank">{{ $proyecto->youtube }}</a>
+                                @else
+                                    --
+                                @endif
                             </p>
 
                             <p>
                                 <strong>Repositorio de Github:</strong>
-                                <a href="{{ $proyecto->github }}" target="_blank">{{ $proyecto->github }}</a>
+                                @if (!empty($proyecto->github))
+                                    <a href="{{ $proyecto->github }}" target="_blank">{{ $proyecto->github }}</a>
+                                @else
+                                    --
+                                @endif
                             </p>
+
                             <p>
                                 <strong>URL Demo:</strong>
-                                <a href="{{ $proyecto->demo }}" target="_blank">{{ $proyecto->demo }}</a>
+                                @if (!empty($proyecto->demo))
+                                    <a href="{{ $proyecto->demo }}" target="_blank">{{ $proyecto->demo }}</a>
+                                @else
+                                    --
+                                @endif
                             </p>
 
                             <div class="row">
