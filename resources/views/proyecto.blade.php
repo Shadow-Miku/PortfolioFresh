@@ -1,5 +1,5 @@
 @extends('layouts.portafolio')
-@section('title', 'Proyecto')
+@section('title', $proyecto->title)
 @section('content')
 
 <article class="resume py-4 px-4 max-w-5xl mx-auto bg-black bg-opacity-40 shadow-md rounded-lg" data-page="resume">

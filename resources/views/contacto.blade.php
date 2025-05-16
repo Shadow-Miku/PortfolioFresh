@@ -1,5 +1,5 @@
 @extends('layouts.portafolio')
-@section('title', 'Contacto')
+@section('title', 'Contact')
 
 @section('content')
 <article class="contact px-4 max-w-4xl mx-auto bg-black bg-opacity-40 shadow-md rounded-lg" data-page="contact">

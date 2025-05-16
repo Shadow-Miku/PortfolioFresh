@@ -8,7 +8,7 @@
     <div class="flex flex-col md:flex-row items-center gap-12">
         <!-- Columna Izquierda -->
         <div class="w-full md:w-1/3 text-center">
-            <img src="{{ asset('img/angelinaarknigths.gif') }}" alt="Tu nombre" class="rounded-full w-64 h-64 object-cover mx-auto mb-6 border-4 border-indigo-500/50">
+            <img src="{{ asset('img/cat-vibing.gif') }}" alt="Tu nombre" class="rounded-full w-64 h-64 object-cover mx-auto mb-6 border-4 border-indigo-500/50">
             <h2 class="text-3xl font-bold text-white mb-2">Aldo Rojas Nieves</h2>
             <p class="text-xl text-indigo-400 mb-6">Jr Developer</p>
 

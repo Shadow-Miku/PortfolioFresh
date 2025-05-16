@@ -1,5 +1,5 @@
 @extends('layouts.portafolio')
-@section('title', 'Proyectos')
+@section('title', 'Proyects')
 @section('content')
 
 <h2 class="text-4xl font-bold text-white mb-12 text-center">My Projects</h2>
